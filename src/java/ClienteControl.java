@@ -55,10 +55,10 @@ ClienteModel cliente;
             respuesta.println("</head>");
             respuesta.println("<body>");           
             respuesta.println("<div class='container'>");
-             respuesta.println("<br><h1>Gracias por registrarse </h1><br>");  
+             respuesta.println("<br><h1>             Gracias por Ser Nuevo Cliente    </h1><br>");  
             respuesta.println("<form name='nombreForm'>");
-            respuesta.println("<div class='container-lg d-flex'> <a href='index.html' class=\"btn btn-success ml-auto\">Registrar Nuevo</a></div><br>");
-                respuesta.println("<div class='container-lg d-flex'> <a href='newhtml.html' class=\"btn btn-success ml-auto\">Registrar EMPLEADO</a></div><br>");
+            respuesta.println("<div class='container-lg d-flex'> <a href='index.html' class=\"btn btn-outline-info ml-auto\">Registrar Nuevo</a></div><br>");
+                respuesta.println("<div class='container-lg d-flex'> <a href='newhtml.html' class=\"btn btn-outline-info ml-auto\">Registrar EMPLEADO</a></div><br>");
             respuesta.println("<table class=\"table table-hover table-striped\">");   
             respuesta.println("<thead><tr> <th scope=\"col\">CODIGO CLIENTE</th>\n"+ "<th scope=\"col\">NOMBRE DEL CLIENTE</th>\n"+
                                 "<th scope=\"col\"> CORREO DEL CLIENTE </th>\n" + "<th scope=\"col\">DIRECCION</th>\n" +

@@ -15,6 +15,19 @@ private String direccion;
         return codigo;
     }
 
+    public  EmpeladoModel(String codigo, String nombre, String correo, String direccion, String apellido, String contraseña){
+        this.codigo=codigo;
+        this.nombre=nombre;
+        this.Correo=correo;
+        this.direccion=direccion;     
+        this.apellido=apellido;
+        this.contraseña=contraseña;
+   
+    }
+
+    
+    
+    
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
